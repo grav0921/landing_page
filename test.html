@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<style type="text/css">
+  .wrap {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  line-height: 1.75em;
+  color: #595959;
+}
+
+.description,
+.example {
+  max-width: 500px;
+}
+
+.example {
+  margin-top: 20px;
+  padding: 20px 30px 25px;
+  background: #f5f5f5;
+  display: inline-block;
+  columns: 3;
+}
+
+.underline {
+  text-decoration: underline;
+}
+/* End Setup */
+
+/* Relevant Code */
+/*li:first-child {
+  color: #f9654f;
+}*/
+li:nth-child(2){
+  color: blue;
+}
+</style>
+<body>
+<div class="wrap">
+  <p class="description"><span class="underline">:first-child</span> - Allows us to target the first sibling in a group</p>
+  <ul class="example">
+    <li>Item</li>  
+    <li>Item</li>  
+    <li>Item</li>  
+    <li>Item</li>  
+    <li>Item</li>  
+    <li>Item</li>  
+    <li>Item</li>  
+    <li>Item</li>  
+    <li>Item</li>  
+    <li>Item</li>  
+    <li>Item</li>  
+    <li>Item</li>  
+    <li>Item</li>  
+    <li>Item</li>  
+    <li>Item</li>  
+  </ul>
+</div>
+</body>
+</html>
