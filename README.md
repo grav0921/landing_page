@@ -1,2 +1,2 @@
 # landing_page
-<a href="">Link</a>
+<a href="https://grav0921.github.io/landing_page/">Link</a>
