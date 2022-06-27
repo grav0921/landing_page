@@ -287,3 +287,4 @@
   });
 
 })();
+AOS.init({disable: 'mobile'});
